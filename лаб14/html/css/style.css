@@ -1,0 +1,138 @@
+/* Общие стили */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #e6f1ff;
+}
+
+body {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Шапка */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #003366;
+    padding: 15px 30px;
+    color: white;
+}
+
+.header__logo img {
+    height: 50px;
+}
+
+.header__navigation .nav {
+    list-style: none;
+    display: flex;
+}
+
+.header__navigation .nav__link {
+    color: white;
+    padding: 10px 15px;
+    margin-left: 10px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.nav__link--active,
+.nav__link:hover {
+    background-color: #00aaff;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Панель навигации (горизонтальная) */
+.sidebar-nav {
+    background-color: #005f8c;
+    padding: 10px;
+}
+
+.sidebar-nav__list {
+    list-style: none;
+}
+
+.sidebar-nav__link {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar-nav__link:hover {
+    background-color: #00aaff;
+}
+
+/* Основное содержимое */
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Боковая панель */
+.sidebar {
+    width: 20%;
+    background-color: #003366;
+    padding: 20px;
+    color: white;
+}
+
+.sidebar h2 {
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    color: #00aaff;
+}
+
+/* Центральная часть */
+.content {
+    width: 60%;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.content__title {
+    font-size: 24px;
+    color: #003366;
+}
+
+.content__text {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Подвал */
+.footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #003366;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
