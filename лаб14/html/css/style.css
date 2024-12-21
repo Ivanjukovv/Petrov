@@ -1,4 +1,4 @@
-/* Общие стили */
+
 * {
     margin: 0;
     padding: 0;
@@ -18,7 +18,7 @@ body {
     color: #333;
 }
 
-/* Шапка */
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -52,7 +52,7 @@ body {
     border-radius: 5px;
 }
 
-/* Панель навигации (горизонтальная) */
+
 .sidebar-nav {
     background-color: #005f8c;
     padding: 10px;
@@ -73,14 +73,13 @@ body {
     background-color: #00aaff;
 }
 
-/* Основное содержимое */
 .main-content {
     display: flex;
     justify-content: space-between;
     padding: 20px;
 }
 
-/* Боковая панель */
+
 .sidebar {
     width: 20%;
     background-color: #003366;
@@ -109,7 +108,7 @@ body {
     color: #00aaff;
 }
 
-/* Центральная часть */
+
 .content {
     width: 60%;
     padding: 20px;
@@ -126,7 +125,6 @@ body {
     color: #666;
 }
 
-/* Подвал */
 .footer {
     text-align: center;
     padding: 10px 0;
